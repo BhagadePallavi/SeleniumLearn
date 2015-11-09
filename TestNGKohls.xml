@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="firstSuite">
+<tests>
+<test name="smokeTest1">
+<classes>
+<class name="seleniumtest.KohlsTest1">
+</class>
+<class name="seleniumtest.KohlsTest2">
+</class>
+</classes>
+</test>
+</tests>
+</suite>

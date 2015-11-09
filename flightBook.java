@@ -62,10 +62,10 @@ public class flightBook {
 		  
 		  Select children = new Select(driver.findElement(By.id("noOfChild")));
 		  children.selectByValue("1");
-		  driver.findElement(By.xpath("//input[@value='SearchSubmit']")).click();
+		  driver.findElement(By.xpath("//div[@id='showdometic']/div[@class='srchbtn']")).click();
 		  driver.findElement(By.xpath("//a[@id='minPrice']/img")).click();
 		  List<WebElement> flights =driver.findElements(By.xpath("//div[@id='flightListResult']/div"));
-		  System.out.println("Total Flights found for destination are"+ flights.size());
+		  System.out.println("Total Flights found for destination are "+ flights.size());
 	
 	}
 	@AfterMethod
