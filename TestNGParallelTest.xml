@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="firstSuite" parallel ='tests' thread-count="2">
+<tests>
+<test name="Test1">
+<parameter name="browser" value="FF"></parameter>
+<classes>
+<class name="newPackage.testParallelTest">
+</class>
+</classes>
+</test>
+<test name="Test2">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="newPackage.testParallelTest">
+</class>
+</classes>
+</test>
+</tests>
+</suite>
